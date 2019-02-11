@@ -1,11 +1,11 @@
 {
     "poolHost": "your.poolhost.tld",
 
-    "coin": "turtlecoin",
-    "symbol": "TRTL",
-    "coinUnits": 100,
-    "coinDecimalPlaces": 2,
-    "coinDifficultyTarget": 30,
+    "coin": "workerscoin",
+    "symbol": "WORK",
+    "coinUnits": 100000000,
+    "coinDecimalPlaces": 8,
+    "coinDifficultyTarget": 90,
 
     "daemonType": "turtlecoin",
     "cnAlgorithm": "cryptonight-turtle-light",
@@ -27,7 +27,7 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "**Your Pool Wallet Address**",
+        "poolAddress": "WCy8cbeYyJQDgAtXzoQjinaDNJSw8t2o3FiEBeX6cyTRTzQknzJuzBf5QQaxSzqUcf39hbnB4KEWbHJwyHXE85RW3Cw4AT9BCt",
         "intAddressPrefix": null,
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
@@ -110,7 +110,7 @@
         "maxAddresses": 50,
         "mixin": 3,
         "priority": 0,
-        "transferFee": 10000,
+        "transferFee": 100000,
         "dynamicTransferFee": true,
         "minerPayFee" : true,
         "minPayment": 500000,
@@ -154,7 +154,7 @@
     "wallet": {
         "host": "127.0.0.1",
         "port": 8070,
-	"password": "**YOUR WALLET RPC PASSWORD - REQUIRES PR#305 **"
+	"password": "18238"
     },
 
     "redis": {
