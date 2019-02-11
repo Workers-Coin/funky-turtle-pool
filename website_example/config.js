@@ -1,8 +1,8 @@
-var api = "http://poolhost:8117";
+var api = "http://95.179.137.12:8117";
 
-var email = "support@poolhost.com";
+var email = "dev@workerscoin.info";
 var telegram = "https://t.me/YourPool";
-var discord = "https://discordapp.com/invite/YourPool";
+var discord = "https://discord.gg/YGeWXQ2";
 
 var marketCurrencies = ["{symbol}-BTC", "{symbol}-USD", "{symbol}-EUR", "{symbol}-CAD"];
 
